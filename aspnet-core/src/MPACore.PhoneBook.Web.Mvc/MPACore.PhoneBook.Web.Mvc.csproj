@@ -26,6 +26,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MPACore.PhoneBook.Application\MPACore.PhoneBook.Application.csproj" />
     <ProjectReference Include="..\MPACore.PhoneBook.Web.Core\MPACore.PhoneBook.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
