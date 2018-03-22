@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
 using MPACore.PhoneBook.PhoneBooks.Persons;
 
@@ -10,7 +11,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
     /// <summary>
     /// 电话号码
     /// </summary>
- public   class PhoneNumber:IHasCreationTime
+ public   class PhoneNumber:Entity<long>,IHasCreationTime
     {
 
         /// <summary>
