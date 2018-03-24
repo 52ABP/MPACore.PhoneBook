@@ -73,9 +73,12 @@ namespace MPACore.PhoneBook.PhoneBooks
         }
 
 
-        public Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
+        public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
-            throw new System.NotImplementedException();
+    var person=   await       _personRepository.GetAsync(input.Id.Value);
+
+        return      person.MapTo<PersonListDto>();
+
         }
 
 

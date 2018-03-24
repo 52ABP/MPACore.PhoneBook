@@ -19,6 +19,7 @@
     <text name="RememberMe" value="记住我" />
     <text name="LogIn" value="登录" />
 
+    <text name="Persons" value="联系人" />
     <text name="LoginFailed" value="登录失败!" />
     
   </texts>

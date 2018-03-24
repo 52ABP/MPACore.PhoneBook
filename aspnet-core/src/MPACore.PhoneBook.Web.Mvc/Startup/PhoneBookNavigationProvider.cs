@@ -5,7 +5,7 @@ using MPACore.PhoneBook.Authorization;
 namespace MPACore.PhoneBook.Web.Startup
 {
     /// <summary>
-    /// This class defines menus for the application.
+    ///     This class defines menus for the application.
     /// </summary>
     public class PhoneBookNavigationProvider : NavigationProvider
     {
@@ -44,7 +44,10 @@ namespace MPACore.PhoneBook.Web.Startup
                         icon: "local_offer",
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
-                )
+                ).AddItem(new MenuItemDefinition(PageNames.Persons, 
+                    new FixedLocalizableString("联系人"), 
+                    url: "Persons",
+                    icon: "local_offer"))
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
@@ -56,7 +59,7 @@ namespace MPACore.PhoneBook.Web.Startup
                     new MenuItemDefinition(
                         "MultiLevelMenu",
                         L("MultiLevelMenu"),
-                        icon: "menu"
+                        "menu"
                     ).AddItem(
                         new MenuItemDefinition(
                             "AspNetBoilerplate",
