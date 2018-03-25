@@ -33,7 +33,10 @@ namespace MPACore.PhoneBook.PhoneBooks
         /// </summary>
         /// <returns></returns>
         Task DeletePersonAsync(EntityDto input);
-
+        /// <summary>
+        /// 通过Id获取联系人信息进行编辑或修改 
+        /// </summary>
+        Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto<int> input);
 
 
     }

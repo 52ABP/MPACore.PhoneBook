@@ -100,12 +100,24 @@ namespace MPACore.PhoneBook.PhoneBooks
 
         }
 
-         
+        public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto<int> input)
+        {
+            var output = new GetPersonForEditOutput();
 
+            PersonEditDto personEditDto;
 
+            if (input.Id.HasValue)
+            {
+                var entity = await _personRepository.GetAsync(input.Id.Value);
+                personEditDto = entity.MapTo<PersonEditDto>();
+            }
+            else
+            {
+                personEditDto = new PersonEditDto();
+            }
 
-
-
-
+            output.Person = personEditDto;
+            return output;
+        }
     }
 }

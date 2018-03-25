@@ -1,9 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using Abp.Domain.Entities.Auditing;
+using MPACore.PhoneBook.PhoneBooks.Persons;
 
 namespace MPACore.PhoneBook.PhoneBooks.Dtos
 {
+    [AutoMapTo(typeof(Person))]
     public class PersonEditDto
     {
 
