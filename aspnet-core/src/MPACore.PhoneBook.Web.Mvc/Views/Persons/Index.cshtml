@@ -1,5 +1,6 @@
 ﻿@using Abp.Application.Services.Dto
 @using Abp.Authorization.Users
+@using MPACore.PhoneBook
 @using MPACore.PhoneBook.PhoneBooks.Dtos
 @using MPACore.PhoneBook.Web.Startup
 @model Abp.Application.Services.Dto.PagedResultDto<PersonListDto>
@@ -9,11 +10,9 @@
 @section scripts
     {
     <environment names="Development">
-        <script src="~/view-resources/Views/Users/Index.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Views/Persons/Index.js" asp-append-version="true"></script>
     </environment>
-    <environment names="Staging,Production">
-        <script src="~/view-resources/Views/Users/Index.min.js" asp-append-version="true"></script>
-    </environment>
+
 }
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -34,7 +33,79 @@
                 </ul>
             </div>
             
+            <div class="body table-responsive">
+                
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>@L("Name")</th>
+                        <th>@L("EmailAddress")</th>
+                        <th>地址</th>
+                        <th>创建时间</th>
+                        <th>@L("Actions")</th>
+                       
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var person in Model.Items)
+                    {
+                        <tr>
+                             <td>@person.Name </td>
+                            <td>@person.EmailAddress</td>
+                            <td>@person.Address</td>
+                            <td>@person.CreationTime</td>
+                            <td><a href="javascript:void()" data-toggle="modal" data-target="#PersonCreateModal" onclick="editPerson(@person.Id);">编辑</a>| <a href="javascript:void()" onclick="deletePerson(@person.Id);"> 删除</a></td>
+
+                        </tr>
+                    }
+                    </tbody>
+
+                </table>
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#UserCreateModal">
+                    <i class="material-icons">add</i>
+                </button>
+
+            </div>
+            
+
         </div>
     </div>
 </div>
 
+<div class="modal fade" id="PersonCreateModal" tabindex="-1" role="dialog" aria-labelledby="PersonCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form name="tenantCreateForm" role="form" novalidate class="form-validation">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span>@L("CreatePerson")</span>
+                    </h4>
+                </div>
+                <div class="modal-body">
+
+
+                    <div class="form-group">
+                        <label>@L("Name")</label>
+                        <input class="form-control" type="text" value="" name="Name" required maxlength="@PhoneBookConsts.MaxNameLength" minlength="2">
+                        <input type="hidden" name="Id">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>@L("EmailAddress")</label>
+                        <input class="form-control" type="email" name="EmailAddress" required maxlength="@PhoneBookConsts.MaxEmailAddressLength" minlength="2">
+
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">@L("Cancel")</button>
+                    <button type="submit" class="btn btn-primary blue">
+                        <i class="fa fa-save"></i> <span>@L("Save")</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

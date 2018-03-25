@@ -825,3 +825,793 @@ INFO  2018-03-25 14:20:52,160 [14   ] soft.AspNetCore.Hosting.Internal.WebHost -
 DEBUG 2018-03-25 14:20:52,164 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 79aa6f36-ce87-42a0-969c-405c35d25a86
 INFO  2018-03-25 14:20:52,181 [25   ] .Internal.Transports.WebSocketsTransport - Socket closed.
 INFO  2018-03-25 14:20:52,186 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3124.7107ms 101 
+INFO  2018-03-25 14:25:00,432 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-03-25 14:25:00,573 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:00,575 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-03-25 14:25:00,576 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-03-25 14:25:00,582 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2018-03-25 14:25:00,625 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 50.3431ms
+INFO  2018-03-25 14:25:00,626 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.9655ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:25:00,755 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:25:00,763 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:00,765 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:25:00,766 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:25:00,766 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.9354ms
+INFO  2018-03-25 14:25:00,766 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.8762ms 200 application/x-javascript
+INFO  2018-03-25 14:25:00,773 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:25:00,781 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:00,783 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:25:00,822 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:25:00,822 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 40.4254ms
+INFO  2018-03-25 14:25:00,823 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.0876ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:25:01,358 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:25:01,364 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:01,364 [25   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:25:01,374 [11   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:25:01,375 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"b771f82d-d5c5-4deb-9b53-3d26037f3bde","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:25:01.3749971+08:00","Properties":{}}
+DEBUG 2018-03-25 14:25:01,375 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: b771f82d-d5c5-4deb-9b53-3d26037f3bde
+INFO  2018-03-25 14:25:03,935 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:25:03,943 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:03,949 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:25:04,140 [25   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:25:04,194 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 249.9937ms
+INFO  2018-03-25 14:25:04,194 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 259.607ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:25:04,207 [43   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: fc65372b-d995-4b81-acd6-2da4c3ec7115
+INFO  2018-03-25 14:25:04,207 [12   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:25:04,212 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 260682.0268ms 101 
+INFO  2018-03-25 14:25:04,241 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:25:04,248 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:04,250 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:25:04,251 [15   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:25:04,251 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.8027ms
+INFO  2018-03-25 14:25:04,251 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.9118ms 200 application/x-javascript
+INFO  2018-03-25 14:25:04,258 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:25:04,264 [47   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:04,267 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:25:04,310 [47   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:25:04,310 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 44.2628ms
+INFO  2018-03-25 14:25:04,310 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.4574ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:25:04,316 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:25:04,317 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Persons/Index.js'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Persons\Index.js'
+INFO  2018-03-25 14:25:04,319 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1049ms 200 application/javascript
+INFO  2018-03-25 14:25:04,636 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:25:04,643 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:25:04,644 [10   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:25:04,710 [11   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:25:04,710 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"36e43ce7-f65e-4d37-82bb-2ab9a1b2384f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:25:04.7105325+08:00","Properties":{}}
+DEBUG 2018-03-25 14:25:04,711 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 36e43ce7-f65e-4d37-82bb-2ab9a1b2384f
+DEBUG 2018-03-25 14:25:06,349 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: daf97a8e-968c-4336-ad45-5834f87a781a
+INFO  2018-03-25 14:25:06,349 [5    ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:25:06,349 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 311809.2503ms 101 
+DEBUG 2018-03-25 14:25:06,356 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: b771f82d-d5c5-4deb-9b53-3d26037f3bde
+INFO  2018-03-25 14:25:06,357 [25   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:25:06,357 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4999.4257ms 101 
+INFO  2018-03-25 14:26:49,025 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:26:49,033 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:26:49,041 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:26:49,309 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 14:26:49,328 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 14:26:49,394 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 359.0447ms
+INFO  2018-03-25 14:26:49,394 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 369.3125ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:26:49,411 [60   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 36e43ce7-f65e-4d37-82bb-2ab9a1b2384f
+INFO  2018-03-25 14:26:49,411 [60   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:26:49,411 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104774.9637ms 101 
+INFO  2018-03-25 14:26:49,449 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:26:49,457 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:26:49,460 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:26:49,460 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:26:49,460 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.0649ms
+INFO  2018-03-25 14:26:49,461 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.1524ms 200 application/x-javascript
+INFO  2018-03-25 14:26:49,468 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:26:49,477 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:26:49,479 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:26:49,525 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:26:49,526 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 47.9615ms
+INFO  2018-03-25 14:26:49,526 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.0026ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:26:49,534 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:26:49,543 [60   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:26:49,546 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.8587ms 304 application/javascript
+INFO  2018-03-25 14:26:49,994 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:26:50,001 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:26:50,001 [59   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:26:50,044 [25   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:26:50,045 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"e237daad-fbd7-45ed-8525-ba2103e4e6d0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:26:50.0451061+08:00","Properties":{}}
+DEBUG 2018-03-25 14:26:50,048 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: e237daad-fbd7-45ed-8525-ba2103e4e6d0
+INFO  2018-03-25 14:26:50,207 [60   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:26:50,208 [60   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:26:50,209 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4172ms 200 image/x-icon
+INFO  2018-03-25 14:27:05,159 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:27:05,164 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:05,168 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:27:05,416 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:27:05,485 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 320.3218ms
+INFO  2018-03-25 14:27:05,486 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 327.442ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:27:05,499 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: e237daad-fbd7-45ed-8525-ba2103e4e6d0
+INFO  2018-03-25 14:27:05,500 [12   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:27:05,500 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15506.0753ms 101 
+INFO  2018-03-25 14:27:05,534 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:27:05,542 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:05,545 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:27:05,546 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:27:05,546 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.4798ms
+INFO  2018-03-25 14:27:05,547 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.673ms 200 application/x-javascript
+INFO  2018-03-25 14:27:05,558 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:27:05,567 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:05,571 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:27:05,627 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:05,628 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 58.6302ms
+INFO  2018-03-25 14:27:05,628 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.5406ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:05,634 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:27:05,635 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:27:05,636 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.392ms 304 application/javascript
+INFO  2018-03-25 14:27:06,090 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:27:06,098 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:06,098 [14   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:27:06,130 [13   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:27:06,131 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"772c628a-186b-47b7-8479-2c3c2718a586","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:27:06.1313135+08:00","Properties":{}}
+DEBUG 2018-03-25 14:27:06,131 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 772c628a-186b-47b7-8479-2c3c2718a586
+INFO  2018-03-25 14:27:06,287 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:27:06,288 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:27:06,290 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0336ms 200 image/x-icon
+INFO  2018-03-25 14:27:17,252 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:27:17,260 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:17,267 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:27:17,463 [60   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:27:17,524 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 262.9422ms
+INFO  2018-03-25 14:27:17,524 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 272.0508ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:27:17,537 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 772c628a-186b-47b7-8479-2c3c2718a586
+INFO  2018-03-25 14:27:17,537 [13   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:27:17,537 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11447.588ms 101 
+INFO  2018-03-25 14:27:17,571 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:27:17,579 [40   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:17,581 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:27:17,581 [40   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:27:17,582 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.9272ms
+INFO  2018-03-25 14:27:17,582 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.0316ms 200 application/x-javascript
+INFO  2018-03-25 14:27:17,587 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:27:17,595 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:17,598 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:27:17,639 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:17,640 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 43.3694ms
+INFO  2018-03-25 14:27:17,640 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.9967ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:18,050 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:27:18,057 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:18,058 [13   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:27:18,107 [14   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:27:18,108 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"7524fe65-de44-47c4-883c-92b9265f965c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:27:18.1082431+08:00","Properties":{}}
+DEBUG 2018-03-25 14:27:18,108 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 7524fe65-de44-47c4-883c-92b9265f965c
+INFO  2018-03-25 14:27:18,265 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:27:18,265 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:27:18,266 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0306ms 200 image/x-icon
+INFO  2018-03-25 14:27:21,983 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=tr&returnUrl=/Persons  
+INFO  2018-03-25 14:27:21,992 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:21,998 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (tr, /Persons) - ModelState is Valid
+INFO  2018-03-25 14:27:22,088 [5    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /Persons.
+INFO  2018-03-25 14:27:22,089 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 93.0186ms
+INFO  2018-03-25 14:27:22,089 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.7466ms 302 
+INFO  2018-03-25 14:27:22,098 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons  
+INFO  2018-03-25 14:27:22,107 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+WARN  2018-03-25 14:27:22,124 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-03-25 14:27:22,129 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-03-25 14:27:22,129 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field MaxResultCount must be between 1 and 500. (MaxResultCount)
+INFO  2018-03-25 14:27:22,130 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 22.0854ms
+ERROR 2018-03-25 14:27:22,171 [10   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+DEBUG 2018-03-25 14:27:22,229 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 7524fe65-de44-47c4-883c-92b9265f965c
+INFO  2018-03-25 14:27:22,230 [12   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:27:22,232 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4182.3098ms 101 
+INFO  2018-03-25 14:27:22,260 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 160.4824ms 500 text/html; charset=utf-8
+INFO  2018-03-25 14:27:24,697 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:27:24,702 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:24,705 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:27:24,714 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:27:24,770 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 67.6889ms
+INFO  2018-03-25 14:27:24,770 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.8237ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:27:24,996 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2  
+INFO  2018-03-25 14:27:24,996 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2'
+INFO  2018-03-25 14:27:24,997 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6516ms 200 font/woff2
+INFO  2018-03-25 14:27:25,080 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:27:25,087 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:25,087 [10   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:27:25,135 [13   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:27:25,137 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"99fa732a-0b6c-42e6-a14d-6eb9418fa7fb","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:27:25.1372519+08:00","Properties":{}}
+DEBUG 2018-03-25 14:27:25,137 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 99fa732a-0b6c-42e6-a14d-6eb9418fa7fb
+INFO  2018-03-25 14:27:28,253 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-CN&returnUrl=/Persons  
+INFO  2018-03-25 14:27:28,260 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:28,263 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-CN, /Persons) - ModelState is Valid
+INFO  2018-03-25 14:27:28,303 [11   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /Persons.
+INFO  2018-03-25 14:27:28,303 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 41.0695ms
+INFO  2018-03-25 14:27:28,303 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.8568ms 302 
+INFO  2018-03-25 14:27:28,311 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons  
+INFO  2018-03-25 14:27:28,319 [58   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+WARN  2018-03-25 14:27:28,331 [47   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-03-25 14:27:28,335 [47   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-03-25 14:27:28,335 [47   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field MaxResultCount must be between 1 and 500. (MaxResultCount)
+INFO  2018-03-25 14:27:28,336 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 15.6993ms
+ERROR 2018-03-25 14:27:28,372 [47   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+DEBUG 2018-03-25 14:27:28,403 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 99fa732a-0b6c-42e6-a14d-6eb9418fa7fb
+INFO  2018-03-25 14:27:28,403 [11   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:27:28,403 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3323.9768ms 101 
+INFO  2018-03-25 14:27:28,430 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.6411ms 500 text/html; charset=utf-8
+INFO  2018-03-25 14:27:31,841 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:27:31,846 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:31,850 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:27:31,859 [58   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:27:31,894 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 47.2361ms
+INFO  2018-03-25 14:27:31,894 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.4336ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:27:31,995 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:27:32,002 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:32,004 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:27:32,005 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:27:32,005 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.7159ms
+INFO  2018-03-25 14:27:32,005 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.5244ms 200 application/x-javascript
+INFO  2018-03-25 14:27:32,009 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:27:32,016 [47   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:32,018 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:27:32,048 [47   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:32,048 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 31.3811ms
+INFO  2018-03-25 14:27:32,048 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1557ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:32,058 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:27:32,059 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:27:32,059 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7222ms 304 application/javascript
+INFO  2018-03-25 14:27:32,218 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:27:32,226 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:32,226 [59   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:27:32,266 [47   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:27:32,268 [47   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"d60ffade-af3b-4c0f-8cf2-ea2cf4383a8e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:27:32.2681607+08:00","Properties":{}}
+DEBUG 2018-03-25 14:27:32,268 [47   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: d60ffade-af3b-4c0f-8cf2-ea2cf4383a8e
+INFO  2018-03-25 14:27:34,195 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=/Persons  
+INFO  2018-03-25 14:27:34,204 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:34,207 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /Persons) - ModelState is Valid
+INFO  2018-03-25 14:27:34,283 [25   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /Persons.
+INFO  2018-03-25 14:27:34,283 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 78.3664ms
+INFO  2018-03-25 14:27:34,284 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.2254ms 302 
+INFO  2018-03-25 14:27:34,292 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons  
+INFO  2018-03-25 14:27:34,300 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+WARN  2018-03-25 14:27:34,320 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-03-25 14:27:34,325 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-03-25 14:27:34,325 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field MaxResultCount must be between 1 and 500. (MaxResultCount)
+INFO  2018-03-25 14:27:34,326 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 24.4768ms
+ERROR 2018-03-25 14:27:34,364 [11   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 128
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+DEBUG 2018-03-25 14:27:34,403 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: d60ffade-af3b-4c0f-8cf2-ea2cf4383a8e
+INFO  2018-03-25 14:27:34,403 [10   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:27:34,404 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2185.39ms 101 
+INFO  2018-03-25 14:27:34,436 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.1292ms 500 text/html; charset=utf-8
+INFO  2018-03-25 14:27:37,601 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:27:37,607 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:37,612 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:27:37,627 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:27:37,668 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 59.4584ms
+INFO  2018-03-25 14:27:37,668 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.943ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:27:37,767 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:27:37,772 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:37,774 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:27:37,775 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:27:37,775 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.7184ms
+INFO  2018-03-25 14:27:37,775 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.8645ms 200 application/x-javascript
+INFO  2018-03-25 14:27:37,781 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:27:37,788 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:37,791 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:27:37,832 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:37,833 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 43.2368ms
+INFO  2018-03-25 14:27:37,833 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.0133ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:27:38,020 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:27:38,026 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:27:38,026 [25   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:27:38,067 [59   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:27:38,068 [59   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"133c9b10-226a-451a-bc93-787cbed181f1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:27:38.068048+08:00","Properties":{}}
+DEBUG 2018-03-25 14:27:38,068 [59   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 133c9b10-226a-451a-bc93-787cbed181f1
+INFO  2018-03-25 14:28:51,714 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:28:51,719 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:28:51,723 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:28:51,879 [67   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:28:51,932 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 212.0095ms
+INFO  2018-03-25 14:28:51,933 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 219.3872ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:28:51,941 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 133c9b10-226a-451a-bc93-787cbed181f1
+INFO  2018-03-25 14:28:51,942 [13   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:28:51,942 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73922.1044ms 101 
+INFO  2018-03-25 14:28:51,975 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:28:51,983 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:28:51,987 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:28:51,987 [59   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:28:51,987 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.3163ms
+INFO  2018-03-25 14:28:51,988 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.2828ms 200 application/x-javascript
+INFO  2018-03-25 14:28:51,993 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:28:52,000 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:28:52,003 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:28:52,034 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:28:52,035 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 33.3551ms
+INFO  2018-03-25 14:28:52,035 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.8822ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:28:52,045 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:28:52,046 [47   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:28:52,046 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7834ms 304 application/javascript
+INFO  2018-03-25 14:28:52,436 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:28:52,443 [67   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:28:52,444 [67   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:28:52,475 [12   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:28:52,476 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"bcaca3f3-f93e-46f7-9695-ab089b6d0ef5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:28:52.476468+08:00","Properties":{}}
+DEBUG 2018-03-25 14:28:52,477 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: bcaca3f3-f93e-46f7-9695-ab089b6d0ef5
+INFO  2018-03-25 14:28:52,622 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:28:52,623 [58   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:28:52,624 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5627ms 200 image/x-icon
+INFO  2018-03-25 14:29:30,879 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:29:30,884 [58   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:29:30,889 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:29:31,102 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+INFO  2018-03-25 14:29:31,170 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 284.2813ms
+INFO  2018-03-25 14:29:31,170 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.4138ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 14:29:31,180 [75   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: bcaca3f3-f93e-46f7-9695-ab089b6d0ef5
+INFO  2018-03-25 14:29:31,181 [75   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:29:31,181 [75   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38745.4646ms 101 
+INFO  2018-03-25 14:29:31,216 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575843840813379  
+INFO  2018-03-25 14:29:31,225 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:29:31,228 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:29:31,228 [59   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:29:31,229 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.2243ms
+INFO  2018-03-25 14:29:31,229 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.8308ms 200 application/x-javascript
+INFO  2018-03-25 14:29:31,238 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575843840813379  
+INFO  2018-03-25 14:29:31,247 [59   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:29:31,251 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:29:31,295 [59   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:29:31,295 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 46.7576ms
+INFO  2018-03-25 14:29:31,296 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.799ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:29:31,310 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:29:31,310 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:29:31,310 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.8975ms 304 application/javascript
+INFO  2018-03-25 14:29:31,706 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:29:31,714 [67   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:29:31,715 [67   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:29:31,751 [59   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:29:31,751 [59   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"4e3ff238-df00-4f22-bb7b-7f3c5806edf9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:29:31.75178+08:00","Properties":{}}
+DEBUG 2018-03-25 14:29:31,752 [59   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 4e3ff238-df00-4f22-bb7b-7f3c5806edf9
+INFO  2018-03-25 14:29:31,931 [75   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:29:31,932 [75   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:29:31,932 [75   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1941ms 200 image/x-icon
+INFO  2018-03-25 14:31:31,672 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:31:31,678 [67   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:31:31,684 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:31:31,858 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 178.6209ms
+ERROR 2018-03-25 14:31:31,898 [67   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException: One or more compilation failures occurred:
+C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Views\Persons\Index.cshtml(86,31): error CS0103: The name 'PhoneBookConsts' does not exist in the current context
+C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Views\Persons\Index.cshtml(93,31): error CS0103: The name 'PhoneBookConsts' does not exist in the current context
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CreateCacheEntry(String normalizedPath)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+DEBUG 2018-03-25 14:31:31,922 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 4e3ff238-df00-4f22-bb7b-7f3c5806edf9
+INFO  2018-03-25 14:31:31,922 [12   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:31:31,922 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120216.6966ms 101 
+INFO  2018-03-25 14:31:31,928 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 255.6647ms 500 text/html; charset=utf-8
+INFO  2018-03-25 14:31:32,340 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:31:32,341 [58   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:31:32,341 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1535ms 200 image/x-icon
+INFO  2018-03-25 14:32:14,966 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:32:14,974 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:32:14,979 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:32:15,220 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 245.416ms
+ERROR 2018-03-25 14:32:15,264 [12   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request
+Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException: One or more compilation failures occurred:
+C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Views\Persons\Index.cshtml(87,47): error CS0117: 'PhoneBookConsts' does not contain a definition for 'MaxNameLength'
+C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Views\Persons\Index.cshtml(94,47): error CS0117: 'PhoneBookConsts' does not contain a definition for 'MaxEmailAddressLength'
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CreateCacheEntry(String normalizedPath)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c.<<UseJwtTokenMiddleware>b__0_0>d.MoveNext() in C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+INFO  2018-03-25 14:32:15,295 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 328.7662ms 500 text/html; charset=utf-8
+INFO  2018-03-25 14:32:15,782 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:32:15,782 [67   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:32:15,783 [74   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0692ms 200 image/x-icon
+DEBUG 2018-03-25 14:32:40,651 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-25 14:32:40,696 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-25 14:32:40,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:40,789 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-25 14:32:40,935 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 14:32:40,935 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 14:32:40,935 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 14:32:40,935 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 14:32:41,632 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 14:32:42,600 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-25 14:32:42,614 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-25 14:32:42,623 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-25 14:32:42,626 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-03-25 14:32:42,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-25 14:32:42,690 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-25 14:32:42,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-03-25 14:32:42,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-25 14:32:42,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-03-25 14:32:42,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-03-25 14:32:42,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-25 14:32:42,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-25 14:32:42,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-25 14:32:45,055 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:32:45,788 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:32:46,394 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:32:49,865 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 14:32:50,085 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+INFO  2018-03-25 14:32:52,099 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 6058.7197ms
+INFO  2018-03-25 14:32:52,104 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7073.9548ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:32:52,278 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575851626929282  
+INFO  2018-03-25 14:32:52,298 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:32:52,315 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:32:52,428 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:32:52,429 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 121.3406ms
+INFO  2018-03-25 14:32:52,429 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.9081ms 200 application/x-javascript
+INFO  2018-03-25 14:32:52,434 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575851626929282  
+INFO  2018-03-25 14:32:52,442 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:32:52,453 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:32:52,510 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U  
+INFO  2018-03-25 14:32:52,533 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 14:32:52,539 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.0426ms 304 application/javascript
+INFO  2018-03-25 14:32:52,607 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:32:52,607 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 159.0276ms
+INFO  2018-03-25 14:32:52,608 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.7549ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:32:52,721 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:32:52,728 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:32:52,854 [13   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:32:52,985 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:32:52,993 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:32:52,996 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+INFO  2018-03-25 14:32:53,005 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.7994ms 200 image/x-icon
+DEBUG 2018-03-25 14:32:53,071 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"21918e6f-b2a6-46d1-a191-16b5d4362b48","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:32:53.0517956+08:00","Properties":{}}
+DEBUG 2018-03-25 14:32:53,153 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 21918e6f-b2a6-46d1-a191-16b5d4362b48
+INFO  2018-03-25 14:33:38,532 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 14:33:38,541 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:33:38,550 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 14:33:39,042 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 14:33:39,064 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+INFO  2018-03-25 14:33:39,123 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 580.1741ms
+INFO  2018-03-25 14:33:39,124 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 591.6869ms 200 text/html; charset=utf-8
+INFO  2018-03-25 14:33:39,177 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575851626929282  
+DEBUG 2018-03-25 14:33:39,178 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 21918e6f-b2a6-46d1-a191-16b5d4362b48
+INFO  2018-03-25 14:33:39,186 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:33:39,189 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 14:33:39,190 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 14:33:39,190 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.9393ms
+INFO  2018-03-25 14:33:39,190 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.9648ms 200 application/x-javascript
+INFO  2018-03-25 14:33:39,198 [25   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 14:33:39,202 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46480.7292ms 101 
+INFO  2018-03-25 14:33:39,206 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575851626929282  
+INFO  2018-03-25 14:33:39,212 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:33:39,215 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 14:33:39,254 [6    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:33:39,255 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 41.0515ms
+INFO  2018-03-25 14:33:39,255 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.2425ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 14:33:39,608 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 14:33:39,616 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 14:33:39,617 [13   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 14:33:39,658 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 14:33:39,658 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"b6924563-193e-4be0-87c3-fd4eb787d6c1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T14:33:39.658804+08:00","Properties":{}}
+DEBUG 2018-03-25 14:33:39,661 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: b6924563-193e-4be0-87c3-fd4eb787d6c1
+INFO  2018-03-25 14:33:39,814 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 14:33:39,815 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 14:33:39,816 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3278ms 200 image/x-icon
