@@ -65,8 +65,8 @@
                                         <i class="material-icons">menu</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block edit-person" data-user-id="@person.Id" data-toggle="modal" data-target="#PersonEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-person" data-user-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name" ><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -105,6 +105,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
+                                            <input  type="hidden" name="Id"/>
                                             <input class="form-control" type="text" name="Name" required maxlength="@PhoneBookConsts.MaxNameLength" minlength="2">
                                             <label class="form-label">@L("Name")</label>
                                         </div>
@@ -116,7 +117,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input class="form-control" type="text" name="EmailAddress" required maxlength="@PhoneBookConsts.MaxEmailAddressLength" minlength="2">
+                                            <input class="form-control" type="email" name="EmailAddress" required maxlength="@PhoneBookConsts.MaxEmailAddressLength" minlength="2">
                                             <label class="form-label">@L("EmailAddress")</label>
                                         </div>
                                     </div>
