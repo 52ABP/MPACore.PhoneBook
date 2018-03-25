@@ -20,7 +20,11 @@
     <text name="LogIn" value="登录" />
 
     <text name="Persons" value="联系人" />
+    <text name="Name" value="名字" />
+    <text name="EmailAddress" value="邮箱地址" />
     <text name="LoginFailed" value="登录失败!" />
-    
+    <text name="Users" value="Users" />
+    <text name="IsActive" value="是否激活" />
+    <text name="Actions" value="操作" />
   </texts>
 </localizationDictionary>
