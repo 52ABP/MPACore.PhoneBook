@@ -8,6 +8,7 @@ using Abp.Linq.Extensions;
 using Abp.UI;
 using Microsoft.EntityFrameworkCore;
 using MPACore.PhoneBook.PhoneBooks.Person.Dtos;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 
 namespace MPACore.PhoneBook.PhoneBooks.Person
 {
@@ -57,7 +58,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
 
         public async Task<PagedResultDto<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
         {
-      var query=      _personRepository.GetAll();
+            var query = _personRepository.GetAllIncluding(a => a.PhoneNumbers);
 
             var personCount = await query.CountAsync();
 
@@ -74,7 +75,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
 
         public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
-    var person=   await       _personRepository.GetAsync(input.Id.Value);
+    var person=   await       _personRepository.GetAllIncluding(a=>a.PhoneNumbers).FirstOrDefaultAsync(a=>a.Id== input.Id.Value);
 
         return      person.MapTo<PersonListDto>();
 
@@ -94,8 +95,11 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
 
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
+            var entity = input.MapTo<Persons.Person>();
 
-        await    _personRepository.InsertAsync(input.MapTo<Persons.Person>());
+
+
+        await    _personRepository.InsertAsync(entity);
 
         }
 
@@ -106,7 +110,8 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
 
             if (input.Id.HasValue)
             {
-                var entity = await _personRepository.GetAsync(input.Id.Value);
+                var entity = await _personRepository.GetAllIncluding(a => a.PhoneNumbers).FirstOrDefaultAsync(a => a.Id == input.Id.Value);
+
                 personEditDto = entity.MapTo<PersonEditDto>();
             }
             else

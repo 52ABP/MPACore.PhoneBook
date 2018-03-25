@@ -1,5 +1,8 @@
-﻿using Abp.Application.Services.Dto;
+﻿using System.Collections.Generic;
+using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers.Dto;
 
 namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
@@ -23,5 +26,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
         /// </summary>
        
         public string Address { get; set; }
+
+        public List<PhoneNumberListDto> PhoneNumbers { get; set; }
     }
 }
