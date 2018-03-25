@@ -60,7 +60,7 @@ namespace MPACore.PhoneBook.PhoneBooks
 
         public async Task<PagedResultDto<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
         {
-      var query=      _personRepository.GetAll();
+      var query=      _personRepository.GetAllIncluding(a=>a.PhoneNumbers);
 
             var personCount = await query.CountAsync();
 

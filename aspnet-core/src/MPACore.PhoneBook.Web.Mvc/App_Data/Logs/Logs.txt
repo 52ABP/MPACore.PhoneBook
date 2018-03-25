@@ -15764,3 +15764,369 @@ INFO  2018-03-25 17:04:18,741 [26   ] .Internal.Transports.WebSocketsTransport -
 INFO  2018-03-25 17:04:18,765 [45   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
 DEBUG 2018-03-25 17:04:18,765 [45   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"1855b82c-a331-488d-b0f6-587f2f95f3ac","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:04:18.7658955+08:00","Properties":{}}
 DEBUG 2018-03-25 17:04:18,766 [45   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 1855b82c-a331-488d-b0f6-587f2f95f3ac
+DEBUG 2018-03-25 17:08:11,554 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-25 17:08:11,597 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-25 17:08:11,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,664 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,667 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,667 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,668 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:11,674 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-25 17:08:11,802 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:08:11,802 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:08:11,802 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:08:11,802 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:08:12,354 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:08:13,119 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-25 17:08:13,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-25 17:08:13,139 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-25 17:08:13,142 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-03-25 17:08:13,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-25 17:08:13,195 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-25 17:08:13,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2018-03-25 17:08:13,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-25 17:08:13,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-03-25 17:08:13,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.NumberDto.PhoneNumberEditDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-25 17:08:13,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-25 17:08:15,450 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:08:16,046 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:08:16,552 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:08:19,190 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:08:19,338 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:08:19,354 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:08:19,360 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:08:19,360 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:08:20,750 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 4501.5506ms
+INFO  2018-03-25 17:08:20,754 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5323.8817ms 200 text/html; charset=utf-8
+INFO  2018-03-25 17:08:20,780 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575944931978844  
+INFO  2018-03-25 17:08:20,785 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:08:20,795 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:08:20,880 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:08:20,883 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 93.162ms
+INFO  2018-03-25 17:08:20,883 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.9198ms 200 application/x-javascript
+INFO  2018-03-25 17:08:20,886 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575944931978844  
+INFO  2018-03-25 17:08:20,890 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:08:20,903 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:08:21,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=aX_odh14QOEybFiCHlpWd1buUSEeJCBWVwSRS2cOEaQ  
+INFO  2018-03-25 17:08:21,046 [14   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:08:21,047 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 146.8013ms
+INFO  2018-03-25 17:08:21,047 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.4026ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:08:21,050 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 17:08:21,055 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.0069ms 304 application/javascript
+INFO  2018-03-25 17:08:21,240 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:08:21,247 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:08:21,341 [25   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:08:21,446 [14   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+INFO  2018-03-25 17:08:21,463 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:08:21,469 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:08:21,481 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9712ms 200 image/x-icon
+DEBUG 2018-03-25 17:08:21,518 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"d9cf29d7-84af-468a-ab21-201d9e481959","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:08:21.496383+08:00","Properties":{}}
+DEBUG 2018-03-25 17:08:21,587 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: d9cf29d7-84af-468a-ab21-201d9e481959
+INFO  2018-03-25 17:10:29,984 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:10:30,018 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:10:30,026 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:10:30,286 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:10:30,299 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:10:30,304 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:10:30,307 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:10:30,307 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:10:30,348 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 328.6655ms
+INFO  2018-03-25 17:10:30,349 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 364.4428ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 17:10:30,396 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: d9cf29d7-84af-468a-ab21-201d9e481959
+INFO  2018-03-25 17:10:30,411 [14   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:10:30,416 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 129175.4271ms 101 
+INFO  2018-03-25 17:10:30,468 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575944931978844  
+INFO  2018-03-25 17:10:30,473 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:10:30,475 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:10:30,476 [15   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:10:30,476 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.2454ms
+INFO  2018-03-25 17:10:30,476 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.8222ms 200 application/x-javascript
+INFO  2018-03-25 17:10:30,481 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575944931978844  
+INFO  2018-03-25 17:10:30,486 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:10:30,488 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:10:30,517 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:10:30,517 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 30.3622ms
+INFO  2018-03-25 17:10:30,518 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.9113ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:10:30,528 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=aX_odh14QOEybFiCHlpWd1buUSEeJCBWVwSRS2cOEaQ  
+INFO  2018-03-25 17:10:30,529 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 17:10:30,529 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9808ms 304 application/javascript
+INFO  2018-03-25 17:10:30,841 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:10:30,848 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:10:30,849 [14   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:10:30,907 [11   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:10:30,908 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"9f1ffd63-0a4f-4b30-8d02-424e0e544725","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:10:30.9084327+08:00","Properties":{}}
+DEBUG 2018-03-25 17:10:30,909 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 9f1ffd63-0a4f-4b30-8d02-424e0e544725
+INFO  2018-03-25 17:10:31,053 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:10:31,054 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:10:31,054 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3401ms 200 image/x-icon
+INFO  2018-03-25 17:11:03,038 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:11:03,043 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:03,047 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:11:03,193 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:11:03,203 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:03,208 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:03,211 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:03,211 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:11:03,245 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 200.9793ms
+INFO  2018-03-25 17:11:03,245 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 207.4529ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 17:11:03,252 [41   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 9f1ffd63-0a4f-4b30-8d02-424e0e544725
+INFO  2018-03-25 17:11:03,253 [15   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:11:03,257 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32416.3143ms 101 
+INFO  2018-03-25 17:11:03,280 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575944931978844  
+INFO  2018-03-25 17:11:03,285 [41   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:03,287 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:11:03,287 [41   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:11:03,287 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.3709ms
+INFO  2018-03-25 17:11:03,287 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7483ms 200 application/x-javascript
+INFO  2018-03-25 17:11:03,292 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575944931978844  
+INFO  2018-03-25 17:11:03,297 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:03,300 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:11:03,329 [14   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:03,329 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 30.5977ms
+INFO  2018-03-25 17:11:03,329 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.1442ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:03,621 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:11:03,626 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:03,626 [5    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:11:03,657 [41   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:11:03,657 [41   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"cad7cf95-a4d6-4bb1-9e34-d7f199e18262","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:11:03.6575266+08:00","Properties":{}}
+DEBUG 2018-03-25 17:11:03,657 [41   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: cad7cf95-a4d6-4bb1-9e34-d7f199e18262
+INFO  2018-03-25 17:11:03,777 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:11:03,778 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:11:03,778 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.8158ms 200 image/x-icon
+INFO  2018-03-25 17:11:29,784 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:11:29,788 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:29,792 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:11:29,951 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:11:29,962 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:29,969 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:29,972 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:29,973 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:11:30,006 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 217.3053ms
+INFO  2018-03-25 17:11:30,007 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 223.2704ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 17:11:30,013 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: cad7cf95-a4d6-4bb1-9e34-d7f199e18262
+INFO  2018-03-25 17:11:30,014 [10   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:11:30,014 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26393.2053ms 101 
+INFO  2018-03-25 17:11:30,048 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575944931978844  
+INFO  2018-03-25 17:11:30,055 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:30,056 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:11:30,057 [14   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:11:30,057 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.1874ms
+INFO  2018-03-25 17:11:30,057 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9682ms 200 application/x-javascript
+INFO  2018-03-25 17:11:30,061 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575944931978844  
+INFO  2018-03-25 17:11:30,068 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:30,070 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:11:30,100 [4    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:30,101 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 32.1131ms
+INFO  2018-03-25 17:11:30,101 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.1524ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:30,106 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=aX_odh14QOEybFiCHlpWd1buUSEeJCBWVwSRS2cOEaQ  
+INFO  2018-03-25 17:11:30,107 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 17:11:30,107 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.788ms 304 application/javascript
+INFO  2018-03-25 17:11:30,384 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:11:30,391 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:30,392 [6    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:11:30,429 [4    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:11:30,429 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"93c4a069-fce5-4176-976d-65d0a753ced6","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:11:30.4294698+08:00","Properties":{}}
+DEBUG 2018-03-25 17:11:30,429 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 93c4a069-fce5-4176-976d-65d0a753ced6
+INFO  2018-03-25 17:11:30,565 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:11:30,566 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:11:30,566 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2594ms 200 image/x-icon
+INFO  2018-03-25 17:11:39,893 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:11:39,898 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:39,901 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:11:40,122 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:11:40,134 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:40,142 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:40,145 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:11:40,146 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:11:40,177 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 278.6441ms
+INFO  2018-03-25 17:11:40,178 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.8565ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 17:11:40,186 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 93c4a069-fce5-4176-976d-65d0a753ced6
+INFO  2018-03-25 17:11:40,186 [10   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:11:40,186 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9802.6868ms 101 
+INFO  2018-03-25 17:11:40,213 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575944931978844  
+INFO  2018-03-25 17:11:40,218 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:40,220 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:11:40,221 [12   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:11:40,221 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.7729ms
+INFO  2018-03-25 17:11:40,221 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.8481ms 200 application/x-javascript
+INFO  2018-03-25 17:11:40,229 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575944931978844  
+INFO  2018-03-25 17:11:40,236 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:40,239 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:11:40,271 [14   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:40,272 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 34.1318ms
+INFO  2018-03-25 17:11:40,272 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.7644ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:11:40,560 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:11:40,567 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:11:40,567 [6    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:11:40,597 [12   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:11:40,598 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"043c0c93-219b-498d-861b-32d1c4a7e2e0","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:11:40.5983329+08:00","Properties":{}}
+DEBUG 2018-03-25 17:11:40,598 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 043c0c93-219b-498d-861b-32d1c4a7e2e0
+INFO  2018-03-25 17:11:40,763 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:11:40,764 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:11:40,764 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9715ms 200 image/x-icon
+DEBUG 2018-03-25 17:12:39,175 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-25 17:12:39,198 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-03-25 17:12:39,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:39,238 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-03-25 17:12:39,303 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:12:39,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:12:39,303 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:12:39,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-25 17:12:39,615 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-25 17:12:40,059 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-25 17:12:40,068 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-25 17:12:40,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-25 17:12:40,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-03-25 17:12:40,076 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-25 17:12:40,107 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-25 17:12:40,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2018-03-25 17:12:40,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-03-25 17:12:40,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-03-25 17:12:40,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.NumberDto.PhoneNumberEditDto
+DEBUG 2018-03-25 17:12:40,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-03-25 17:12:40,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-03-25 17:12:40,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-25 17:12:40,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-25 17:12:40,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-03-25 17:12:41,959 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:12:42,480 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:12:43,026 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:12:45,627 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:12:45,757 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:12:45,772 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:12:45,778 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:12:45,778 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:12:47,122 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 4417.9438ms
+INFO  2018-03-25 17:12:47,126 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5183.0115ms 200 text/html; charset=utf-8
+INFO  2018-03-25 17:12:47,161 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575947601094260  
+INFO  2018-03-25 17:12:47,168 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:12:47,183 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:12:47,253 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:12:47,254 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 81.0714ms
+INFO  2018-03-25 17:12:47,255 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.8108ms 200 application/x-javascript
+INFO  2018-03-25 17:12:47,259 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575947601094260  
+INFO  2018-03-25 17:12:47,263 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:12:47,277 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:12:47,380 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=aX_odh14QOEybFiCHlpWd1buUSEeJCBWVwSRS2cOEaQ  
+INFO  2018-03-25 17:12:47,425 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-03-25 17:12:47,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.5756ms 304 application/javascript
+INFO  2018-03-25 17:12:47,433 [12   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:12:47,434 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 161.2987ms
+INFO  2018-03-25 17:12:47,434 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.605ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:12:47,515 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:12:47,520 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:12:47,612 [11   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:12:47,699 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+INFO  2018-03-25 17:12:47,703 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:12:47,709 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:12:47,719 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.5795ms 200 image/x-icon
+DEBUG 2018-03-25 17:12:47,746 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"79b2de79-b596-4b4e-ba84-f4c6fcd05dc1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:12:47.733918+08:00","Properties":{}}
+DEBUG 2018-03-25 17:12:47,802 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 79b2de79-b596-4b4e-ba84-f4c6fcd05dc1
+INFO  2018-03-25 17:13:07,976 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:13:07,981 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:07,985 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:13:08,301 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:13:08,315 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:08,320 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:08,323 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:08,324 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:13:08,363 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 380.9369ms
+INFO  2018-03-25 17:13:08,364 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 387.4058ms 200 text/html; charset=utf-8
+INFO  2018-03-25 17:13:08,409 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575947601094260  
+DEBUG 2018-03-25 17:13:08,410 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 79b2de79-b596-4b4e-ba84-f4c6fcd05dc1
+INFO  2018-03-25 17:13:08,417 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:08,419 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:13:08,420 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:13:08,420 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.9744ms
+INFO  2018-03-25 17:13:08,420 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4896ms 200 application/x-javascript
+INFO  2018-03-25 17:13:08,429 [6    ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:13:08,433 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575947601094260  
+INFO  2018-03-25 17:13:08,433 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20918.8776ms 101 
+INFO  2018-03-25 17:13:08,444 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:08,449 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:13:08,490 [15   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:13:08,491 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 45.1424ms
+INFO  2018-03-25 17:13:08,491 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.3773ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:13:08,839 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:13:08,845 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:08,846 [13   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:13:08,886 [37   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:13:08,887 [37   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"f8b7f76e-62de-4dd1-aa54-14ae668935e1","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:13:08.8875101+08:00","Properties":{}}
+DEBUG 2018-03-25 17:13:08,888 [37   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: f8b7f76e-62de-4dd1-aa54-14ae668935e1
+INFO  2018-03-25 17:13:09,065 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:13:09,067 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:13:09,068 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.3444ms 200 image/x-icon
+INFO  2018-03-25 17:13:52,409 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-03-25 17:13:52,413 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:52,417 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-03-25 17:13:52,574 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-03-25 17:13:52,590 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:52,596 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:52,598 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-03-25 17:13:52,599 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+INFO  2018-03-25 17:13:52,639 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 224.4173ms
+INFO  2018-03-25 17:13:52,639 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 229.7994ms 200 text/html; charset=utf-8
+DEBUG 2018-03-25 17:13:52,646 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: f8b7f76e-62de-4dd1-aa54-14ae668935e1
+INFO  2018-03-25 17:13:52,647 [15   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-03-25 17:13:52,652 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43812.9351ms 101 
+INFO  2018-03-25 17:13:52,674 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636575947601094260  
+INFO  2018-03-25 17:13:52,679 [45   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:52,681 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-03-25 17:13:52,682 [45   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-03-25 17:13:52,682 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.3365ms
+INFO  2018-03-25 17:13:52,682 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.2187ms 200 application/x-javascript
+INFO  2018-03-25 17:13:52,686 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636575947601094260  
+INFO  2018-03-25 17:13:52,691 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:52,693 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-03-25 17:13:52,716 [15   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:13:52,716 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 24.6742ms
+INFO  2018-03-25 17:13:52,717 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.3674ms 200 application/x-javascript; charset=utf-8
+INFO  2018-03-25 17:13:53,149 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-03-25 17:13:53,156 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-03-25 17:13:53,156 [12   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-03-25 17:13:53,187 [44   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-03-25 17:13:53,187 [44   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"a5a37bbf-33e7-4689-8b46-5ff366ee8c82","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-03-25T17:13:53.1878068+08:00","Properties":{}}
+DEBUG 2018-03-25 17:13:53,188 [44   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: a5a37bbf-33e7-4689-8b46-5ff366ee8c82
+INFO  2018-03-25 17:13:53,324 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-03-25 17:13:53,325 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\CodeManager\ABPZERO_DEMO\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-03-25 17:13:53,326 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9009ms 200 image/x-icon

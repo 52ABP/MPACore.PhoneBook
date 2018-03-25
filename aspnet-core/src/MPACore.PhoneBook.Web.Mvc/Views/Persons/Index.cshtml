@@ -40,10 +40,11 @@
                     <tr>
                         <th>@L("Name")</th>
                         <th>@L("EmailAddress")</th>
+                        
                         <th>地址</th>
                         <th>创建时间</th>
                         <th>@L("Actions")</th>
-                       
+                    
                     </tr>
                     </thead>
                     <tbody>
@@ -52,13 +53,29 @@
                         <tr>
                              <td>@person.Name </td>
                             <td>@person.EmailAddress</td>
+                            
+                           
                             <td>@person.Address</td>
                             <td>@person.CreationTime</td>
                             <td>
                                 <a href="#" class="edit-person"  data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal">编辑</a>| 
                                 <a href="#" class="delete-person" data-person-id="@person.Id" data-person-name="@person.Name" > 删除</a>
                             </td>
-
+                            @if (person.PhoneNumbers.Count>0)
+                            {
+                                <tr>
+                                    <th>电话类型</th>
+                                    <th>电话号码</th>
+                                </tr>
+                            }
+                            
+                            @foreach (var phone in person.PhoneNumbers)
+                            {
+                            <tr>
+                                <td>@phone.Type</td>
+                                <td>@phone.Number</td>
+                            </tr>
+                            }
                         </tr>
                     }
                     </tbody>
