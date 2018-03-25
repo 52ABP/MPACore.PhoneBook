@@ -19,20 +19,20 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         /// 姓名
         /// </summary>
         [Required]
-        [MaxLength(50)]
+        [MaxLength(PhoneBookConsts.MaxNameLength)]
         public string Name { get; set; }
 
         /// <summary>
         /// 邮箱
         /// </summary>
         [EmailAddress]
-        [MaxLength(80)]
+        [MaxLength(PhoneBookConsts.MaxEmailAddressLength)]
         public string EmailAddress { get; set; }
 
         /// <summary>
         /// 地址信息
         /// </summary>
-        [MaxLength(200)]
+        [MaxLength(PhoneBookConsts.MaxAddressLength)]
         public string Address { get; set; }
 
 

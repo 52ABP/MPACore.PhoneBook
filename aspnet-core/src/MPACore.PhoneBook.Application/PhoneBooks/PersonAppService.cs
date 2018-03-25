@@ -96,7 +96,7 @@ namespace MPACore.PhoneBook.PhoneBooks
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
 
-            _personRepository.Insert(input.MapTo<Person>());
+        await    _personRepository.InsertAsync(input.MapTo<Person>());
 
         }
 

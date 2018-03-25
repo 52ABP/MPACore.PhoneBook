@@ -1,5 +1,6 @@
 ﻿@using Abp.Application.Services.Dto
 @using Abp.Authorization.Users
+@using MPACore.PhoneBook
 @using MPACore.PhoneBook.PhoneBooks.Dtos
 @using MPACore.PhoneBook.Web.Startup
 @model Abp.Application.Services.Dto.PagedResultDto<PersonListDto>
@@ -9,18 +10,17 @@
 @section scripts
     {
     <environment names="Development">
-        <script src="~/view-resources/Views/Users/Index.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Views/Persons/Index.js" asp-append-version="true"></script>
     </environment>
-    <environment names="Staging,Production">
-        <script src="~/view-resources/Views/Users/Index.min.js" asp-append-version="true"></script>
-    </environment>
+
+
 }
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card">
             <div class="header">
                 <h2>
-               联系人
+                    联系人
                 </h2>
                 <ul class="header-dropdown m-r--5">
                     <li class="dropdown">
@@ -33,8 +33,120 @@
                     </li>
                 </ul>
             </div>
-            
+
+            <div class="body table-responsive">
+
+                <table class="table">
+
+                    <thead>
+                    <tr>
+                        <th>@L("Name")</th>
+                        <th>@L("EmailAddress")</th>
+                        <th>@L("Address")</th>
+                        <th>@L("CreationTime")</th>
+                        <th>@L("Actions")</th>
+
+                    </tr>
+                   
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var person in Model.Items)
+                        {
+                            <tr>
+                                <td>@person.Name</td>
+                                <td>@person.EmailAddress</td>
+                                <td>@person.Address</td>
+                                <td>@person.CreationTime</td>
+
+                                <td class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">menu</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#" class="waves-effect waves-block edit-person" data-user-id="@person.Id" data-toggle="modal" data-target="#PersonEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-person" data-user-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
+                    <i class="material-icons">add</i>
+                </button>
+
+
+
+            </div>
+
+
         </div>
     </div>
 </div>
+
+
+<div class="modal fade" id="PersonCreateModal" tabindex="-1" role="dialog" aria-labelledby="PersonCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    <span>@L("CreatePerson")</span>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form name="personCreateForm" role="form" novalidate class="form-validation">
+               
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane animated fadeIn active" id="create-user-details">
+
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Name" required maxlength="@PhoneBookConsts.MaxNameLength" minlength="2">
+                                            <label class="form-label">@L("Name")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="EmailAddress" required maxlength="@PhoneBookConsts.MaxEmailAddressLength" minlength="2">
+                                            <label class="form-label">@L("EmailAddress")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Address"  maxlength="@PhoneBookConsts.MaxNameLength" >
+                                            <label class="form-label">@L("Address")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">@L("Cancel")</button>
+                        <button type="submit" class="btn btn-primary waves-effect">@L("Save")</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
