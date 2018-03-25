@@ -27,6 +27,8 @@ namespace MPACore.PhoneBook.PhoneBooks
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
 
+
+
             if (input.PersonEditDto.Id.HasValue)
             {
 
@@ -96,7 +98,11 @@ namespace MPACore.PhoneBook.PhoneBooks
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
 
-            _personRepository.Insert(input.MapTo<Person>());
+            var entity = input.MapTo<Person>();
+
+
+
+       await     _personRepository.InsertAsync(entity);
 
         }
 
@@ -108,7 +114,7 @@ namespace MPACore.PhoneBook.PhoneBooks
 
             if (input.Id.HasValue)
             {
-                var entity = await _personRepository.GetAsync(input.Id.Value);
+                var entity = await _personRepository.GetAllIncluding(a => a.PhoneNumbers).FirstOrDefaultAsync(a=>a.Id== input.Id.Value);
                 personEditDto = entity.MapTo<PersonEditDto>();
             }
             else

@@ -1,8 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using Abp.Domain.Entities.Auditing;
+using MPACore.PhoneBook.PhoneBooks.NumberDto;
 using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 
 namespace MPACore.PhoneBook.PhoneBooks.Dtos
 {
@@ -31,6 +34,12 @@ namespace MPACore.PhoneBook.PhoneBooks.Dtos
         /// </summary>
         [MaxLength(200)]
         public string Address { get; set; }
+
+
+        /// <summary>
+        /// 电话号码
+        /// </summary>
+        public List<PhoneNumberEditDto> PhoneNumbers { get; set; }
 
     }
 }

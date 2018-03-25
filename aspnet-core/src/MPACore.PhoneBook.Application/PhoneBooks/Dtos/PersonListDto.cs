@@ -1,7 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 
 namespace MPACore.PhoneBook.PhoneBooks.Dtos
 {
@@ -25,5 +27,11 @@ namespace MPACore.PhoneBook.PhoneBooks.Dtos
         /// </summary>
        
         public string Address { get; set; }
+
+
+        /// <summary>
+        /// 电话号码
+        /// </summary>
+        public List<PhoneNumber> PhoneNumbers { get; set; }
     }
 }
