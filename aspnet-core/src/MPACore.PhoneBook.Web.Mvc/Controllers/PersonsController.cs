@@ -3,7 +3,8 @@ using Abp.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MPACore.PhoneBook.Controllers;
 using MPACore.PhoneBook.PhoneBooks;
-using MPACore.PhoneBook.PhoneBooks.Dtos;
+using MPACore.PhoneBook.PhoneBooks.Person;
+using MPACore.PhoneBook.PhoneBooks.Person.Dtos;
 
 namespace MPACore.PhoneBook.Web.Controllers
 {

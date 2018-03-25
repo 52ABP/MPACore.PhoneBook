@@ -1,11 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Abp.Application.Services.Dto;
+﻿using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
-using MPACore.PhoneBook.PhoneBooks.Persons;
 
-namespace MPACore.PhoneBook.PhoneBooks.Dtos
+namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
-    [AutoMapFrom(typeof(Person))]
+    [AutoMapFrom(typeof(Persons.Person))]
     public class PersonListDto:FullAuditedEntityDto
     {
         /// <summary>

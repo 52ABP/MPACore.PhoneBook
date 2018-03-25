@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
-using MPACore.PhoneBook.PhoneBooks.Dtos;
+using MPACore.PhoneBook.PhoneBooks.Person.Dtos;
 
-namespace MPACore.PhoneBook.PhoneBooks
+namespace MPACore.PhoneBook.PhoneBooks.Person
 {
     public interface IPersonAppService: IApplicationService
     {

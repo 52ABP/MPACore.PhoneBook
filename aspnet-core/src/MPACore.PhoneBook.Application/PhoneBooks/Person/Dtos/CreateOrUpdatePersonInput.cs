@@ -1,4 +1,4 @@
-﻿namespace MPACore.PhoneBook.PhoneBooks.Dtos
+﻿namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
     public class CreateOrUpdatePersonInput
     {

@@ -1,13 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Abp.Application.Services.Dto;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Abp.AutoMapper;
-using Abp.Domain.Entities.Auditing;
-using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.PhoneNumbers.Dto;
 
-namespace MPACore.PhoneBook.PhoneBooks.Dtos
+namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
 
-    [AutoMapTo(typeof(Person))]
+    [AutoMapTo(typeof(Persons.Person))]
     public class PersonEditDto
     {
 
@@ -32,6 +31,11 @@ namespace MPACore.PhoneBook.PhoneBooks.Dtos
         /// </summary>
         [MaxLength(200)]
         public string Address { get; set; }
+
+
+        public List<PhoneNumberEditDto> PhoneNumbers { get; set; }
+
+
 
     }
 }

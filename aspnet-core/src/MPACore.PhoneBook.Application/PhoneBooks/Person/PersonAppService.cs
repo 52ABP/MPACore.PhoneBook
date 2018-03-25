@@ -7,18 +7,17 @@ using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
 using Abp.UI;
 using Microsoft.EntityFrameworkCore;
-using MPACore.PhoneBook.PhoneBooks.Dtos;
-using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.Person.Dtos;
 
-namespace MPACore.PhoneBook.PhoneBooks
+namespace MPACore.PhoneBook.PhoneBooks.Person
 {
     public class PersonAppService : PhoneBookAppServiceBase, IPersonAppService
     {
 
-        private readonly IRepository<Person> _personRepository;
+        private readonly IRepository<Persons.Person> _personRepository;
         
 
-        public PersonAppService(IRepository<Person> personRepository)
+        public PersonAppService(IRepository<Persons.Person> personRepository)
         {
             _personRepository = personRepository;
         }
@@ -96,7 +95,7 @@ namespace MPACore.PhoneBook.PhoneBooks
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
 
-        await    _personRepository.InsertAsync(input.MapTo<Person>());
+        await    _personRepository.InsertAsync(input.MapTo<Persons.Person>());
 
         }
 

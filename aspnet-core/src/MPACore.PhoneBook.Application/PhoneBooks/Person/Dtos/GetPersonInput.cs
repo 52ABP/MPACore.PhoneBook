@@ -1,9 +1,7 @@
-﻿using System;
-using Abp;
-using Abp.Runtime.Validation;
+﻿using Abp.Runtime.Validation;
 using MPACore.PhoneBook.Dto;
 
-namespace MPACore.PhoneBook.PhoneBooks.Dtos
+namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
     public class GetPersonInput:PagedAndSortedInputDto,IShouldNormalize
     {
