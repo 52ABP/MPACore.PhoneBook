@@ -1262,7 +1262,7 @@ namespace MPACore.PhoneBook.Migrations
             modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.PhoneNumbers.PhoneNumber", b =>
                 {
                     b.HasOne("MPACore.PhoneBook.PhoneBooks.Persons.Person", "Person")
-                        .WithMany()
+                        .WithMany("PhoneNumbers")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

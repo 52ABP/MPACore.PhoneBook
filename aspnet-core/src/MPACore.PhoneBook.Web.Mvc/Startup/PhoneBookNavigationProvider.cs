@@ -46,7 +46,7 @@ namespace MPACore.PhoneBook.Web.Startup
                     )
                 ).AddItem(new MenuItemDefinition(PageNames.Persons, 
                     new FixedLocalizableString("联系人"), 
-                    url: "Persons",
+                    url: "Persons?skipCount=0&maxResultCount=10",
                     icon: "local_offer"))
                 .AddItem(
                     new MenuItemDefinition(

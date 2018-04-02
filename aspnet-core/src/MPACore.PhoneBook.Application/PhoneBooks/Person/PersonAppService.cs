@@ -27,6 +27,8 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
 
+
+
             if (input.PersonEditDto.Id.HasValue)
             {
 
@@ -58,7 +60,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
 
         public async Task<PagedResultDto<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
         {
-            var query = _personRepository.GetAllIncluding(a => a.PhoneNumbers);
+      var query=      _personRepository.GetAllIncluding(a=>a.PhoneNumbers);
 
             var personCount = await query.CountAsync();
 
@@ -97,34 +99,32 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
         {
             var entity = input.MapTo<Persons.Person>();
 
+            var entity = input.MapTo<Person>();
 
 
-        await    _personRepository.InsertAsync(entity);
+
+       await     _personRepository.InsertAsync(entity);
 
         }
 
-        public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input)
+        public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto<int> input)
         {
-            var output=new GetPersonForEditOutput();
+            var output = new GetPersonForEditOutput();
+
             PersonEditDto personEditDto;
 
             if (input.Id.HasValue)
             {
-                var entity = await _personRepository.GetAllIncluding(a => a.PhoneNumbers).FirstOrDefaultAsync(a => a.Id == input.Id.Value);
-
+                var entity = await _personRepository.GetAllIncluding(a => a.PhoneNumbers).FirstOrDefaultAsync(a=>a.Id== input.Id.Value);
                 personEditDto = entity.MapTo<PersonEditDto>();
             }
             else
             {
-                personEditDto=new PersonEditDto();
-                
+                personEditDto = new PersonEditDto();
             }
 
             output.Person = personEditDto;
             return output;
-
-
-
         }
     }
 }
