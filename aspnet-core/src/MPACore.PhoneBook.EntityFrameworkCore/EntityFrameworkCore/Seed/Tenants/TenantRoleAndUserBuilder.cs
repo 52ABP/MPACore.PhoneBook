@@ -137,39 +137,6 @@ namespace MPACore.PhoneBook.EntityFrameworkCore.Seed.Tenants
         }
 
 
-        private void CreatePhone()
-        {
-            var defaultPhone = _context.Persons.FirstOrDefault(p => p.EmailAddress == "admin@yoyocms.com");
-            if (defaultPhone == null)
-            {
-                _context.Persons.Add(new Person()
-                {
-                    Name = "张三",
-                    EmailAddress = "admin@yoyocms.com",
-                     PhoneNumbers = new List<PhoneNumber>()
-                    {
-                        new PhoneNumber() {Type = PhoneNumberType.Company,Number = "87115555"},
-                        new PhoneNumber() {Type = PhoneNumberType.Home,Number = "010-1109"}
-                    }
-                });
-            }
-            var defaultPerson = _context.Persons.FirstOrDefault(p => p.EmailAddress == "lisi@yoyocms.com");
-            if (defaultPerson == null)
-            {
-                _context.Persons.Add(new Person()
-                {
-                    Name = "李四",
-                    EmailAddress = "lisi@yoyocms.com",
-                    PhoneNumbers = new List<PhoneNumber>()
-                    {
-                        new PhoneNumber() {Type = PhoneNumberType.Company,Number = "88452675"},
-                        new PhoneNumber() {Type = PhoneNumberType.Home,Number = "010-441109"}
-                    }
-                });
-            }
-            _context.SaveChanges();
-
-        }
 
 
     }

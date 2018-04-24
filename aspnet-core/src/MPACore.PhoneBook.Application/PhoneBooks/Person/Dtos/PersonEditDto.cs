@@ -9,7 +9,7 @@ using MPACore.PhoneBook.PhoneBooks.PhoneNumbers;
 
 namespace MPACore.PhoneBook.PhoneBooks.Person.Dtos
 {
-    [AutoMapTo(typeof(Person))]
+    [AutoMapTo(typeof(Persons.Person))]
     public class PersonEditDto
     {
 

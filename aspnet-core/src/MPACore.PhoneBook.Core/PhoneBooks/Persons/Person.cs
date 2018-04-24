@@ -36,13 +36,9 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         [MaxLength(PhoneBookConsts.MaxAddressLength)]
         public string Address { get; set; }
 
+   
         /// <summary>
-        /// 电话号码
-        /// </summary>
-        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
-
-        /// <summary>
-        /// 电话号码的属性
+        /// 电话号码的导航属性
         /// </summary>
         public ICollection<PhoneNumber> PhoneNumbers { get; set; }
 

@@ -23,7 +23,9 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
             _personRepository = personRepository;
         }
 
-  
+
+     
+
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
 
@@ -99,13 +101,15 @@ namespace MPACore.PhoneBook.PhoneBooks.Person
         {
             var entity = input.MapTo<Persons.Person>();
 
-            var entity = input.MapTo<Person>();
+        
 
 
 
        await     _personRepository.InsertAsync(entity);
 
         }
+
+       
 
         public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto<int> input)
         {

@@ -1,4 +1,6 @@
-﻿namespace MPACore.PhoneBook.PhoneBooks.Dtos
+﻿using MPACore.PhoneBook.PhoneBooks.Person.Dtos;
+
+namespace MPACore.PhoneBook.PhoneBooks.Dtos
 {
     public class GetPersonForEditOutput
     {
